@@ -1,0 +1,42 @@
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* See color guide at the bottom*/
+
+/* HEADER SECTION */
+
+
+/* FEATURES SECTION */
+
+
+/* PRODUCTIVE SECTION */
+
+
+/* TESTIMONIAL SECTION */
+
+/* FOOTER SECTION */
+
+
+/*Color guide*/
+
+/*Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%) / 	#1c2431
+
+- Dark Blue (main background): hsl(218, 28%, 13%) /	#181f2a
+
+- Dark Blue (footer background): hsl(216, 53%, 9%) / #0b1523
+- Dark Blue (testimonials background): hsl(219, 30%, 18%) / 	#202a3c
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%) / 	#65e2d9
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%) / #339ecc
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) / #fff
