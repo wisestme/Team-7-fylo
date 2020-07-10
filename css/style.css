@@ -6,9 +6,78 @@
 }
 
 /* See color guide at the bottom*/
-
+body{
+	font-family: "Open Sans";
+	font-weight: 400;
+	color: hsl(0, 0%, 100%);
+	font-size: 14px;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
 /* HEADER SECTION */
+.nav{
+	padding: 50px 80px 80px;
+}
+.nav img{
+	width: 150px;
+	float: left;
+}
+.nav ul{
+	margin-left: 77%;
+}
+.nav li{
+	display: inline-block;
+	float: left;
+	padding-left: 35px;
+	opacity: 0.8;
+}
 
+header {
+	background-color: hsl(217, 28%, 15%);
+}
+.top-svg{
+	width:50%;
+	margin: 0 25%;
+	padding-bottom: 70px;
+}
+.bottom-svg{
+	width:100%;
+	margin: 0;
+}
+.header-content{
+	position: absolute;
+	top: 640px;
+	left: 200px;
+	text-align: center;
+}
+.header-content h2{
+	color: hsl(0, 0%, 100%);
+	font-family: Raleway;
+	font-weight:700;
+	font-size: 30px;
+	line-height: 50px;
+	padding-bottom: 20px;
+	width:70%;
+	margin: 0 15%;
+}
+.header-content p{
+	width: 55%;
+	margin: 0 22.5%;
+	padding-bottom: 25px;
+	font-size: 15px;
+	line-height: 22px;
+	opacity: 0.8;
+}
+.header-content button{
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+	font-family: "Open Sans";
+	color: hsl(0, 0%, 100%);
+	padding: 12px 65px;
+	border-radius: 50px;
+	border: hidden;
+}
 
 /* FEATURES SECTION */
 
