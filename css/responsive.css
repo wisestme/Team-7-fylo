@@ -30,8 +30,7 @@
     }
     header {
         background-color: hsl(217, 28%, 15%);
-        height:400px;
-        
+        height: 459px;  
     }
     .header-content{
         position: absolute;
@@ -71,6 +70,10 @@
 /* FEATURES SECTION */
 @media all and (max-width: 1024px) {
 
+    .features-wrapper {
+        padding-top: 50px;
+    }
+    
     .features-section {
         width: 100%;
     }
@@ -97,8 +100,13 @@
 }
 
 @media all and (max-width: 560px) {
+
+    .features-wrapper{
+        margin-top: 200px;
+    }
    .features-section {
        width: 100%;
+       margin-top: 50px;
        flex-flow: column wrap;
    } 
 
