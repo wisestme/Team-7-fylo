@@ -33,15 +33,9 @@ li{
 	padding-left: 35px;
 	opacity: 0.8;
 }
-
 header {
 	background-color: hsl(217, 28%, 15%);
-}
-.header-box::after{
-	content: ". ";
-	width: 100%;
-	height: 20px;
-	background-color: red;
+	height: 1160px;
 }
 .top-svg{
 	width:50%;
@@ -251,10 +245,33 @@ header {
 .col-12{width:100%;}
 
 footer {
-	background: linear-gradient(#181f2a 20%, #181f2a 100%);
+	background: linear-gradient(#181f2a 20%, #0B1523 100%);
 	background: -webkit-linear-gradient(#181f2a 20%, #181f2a 100%));
 }
-.flex-wrapper.prefooter {
+.flex-wrapper.newsleta {
 	justify-content:center;
 	margin:30px 0;
+}
+.flex-wrapper.newsleta .col-8 {
+    background: #202A3C;
+	border-radius: 15px;
+	padding: 30px 50px;
+    border-radius: 15px;
+	text-align: center;
+}
+.newsleta input[type="text"] {
+    height: 45px;
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 40px;
+    border: none;
+}
+.newsleta button.button.btn {
+    background: #65E2D9;
+    height: 45px;
+    line-height: 45px;
+    min-width: 100px;
+    padding: 0 15px;
+	border-radius: 30px;
+	outline:none;
 }
