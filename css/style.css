@@ -6,37 +6,272 @@
 }
 
 /* See color guide at the bottom*/
-
+body{
+	font-family: "Open Sans";
+	font-weight: 400;
+	color: hsl(0, 0%, 100%);
+	font-size: 14px;
+	background: #181f2a;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
 /* HEADER SECTION */
+.nav{
+	padding: 50px 80px 80px;
+}
+.nav img{
+	width: 150px;
+	float: left;
+}
+.nav ul{
+	margin-left: 77%;
+}
+.nav li{
+	display: inline-block;
+	padding-left: 35px;
+	opacity: 0.8;
+}
+header {
+	background-color: hsl(217, 28%, 15%);
+	height: 1160px;
+}
+.top-svg{
+	width:50%;
+	margin: 0 25%;
+	padding-bottom: 70px;
+}
+.bottom-svg{
+	width:100%;
+	margin: 0;
+}
+.header-content{
+	position: absolute;
+	top: 640px;
+	left: 200px;
+	text-align: center;
+}
+.header-content h2{
+	color: hsl(0, 0%, 100%);
+	font-family: Raleway;
+	font-weight:700;
+	font-size: 30px;
+	line-height: 50px;
+	padding-bottom: 20px;
+	width:70%;
+	margin: 0 15%;
+}
+.header-content p{
+	width: 55%;
+	margin: 0 22.5%;
+	padding-bottom: 25px;
+	font-size: 15px;
+	line-height: 22px;
+	opacity: 0.8;
+}
+.header-content button{
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+	font-family: "Open Sans";
+	color: hsl(0, 0%, 100%);
+	padding: 12px 65px;
+	border-radius: 50px;
+	border: hidden;
+}
 
+/* FEATURES SECTI7ON */
 
-/* FEATURES SECTION */
+.features-wrapper{
+	background-color: #181f2a;
+}
+.features-section{
+	color: #fff;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
 
+.features-section div {
+	width: 50%;
+	margin-top: 4em;
+	margin-bottom: 60px;
+}
+
+.features-section h4 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 16px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.security h4 {
+	margin-top: -8px;
+}
+
+.any-file h4 {
+	margin-top: 5px;
+}
+
+.features-section p {
+	margin-left: 65px;
+	font-family: open Sans;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.features-section .access-text, .features-section .any-file-text  {
+	width: 68%;
+}
+
+.features-section .security-text, .features-section .collaboration-text {
+	width: 75%;
+}
 
 /* PRODUCTIVE SECTION */
+.productive {
+	width: 90%;
+	margin: 0 auto 8em auto;
+}
 
+.productive img {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.productive h2 {
+	margin: 0.8em 0;
+	font-weight: 700px;
+	font-size: 24px;
+	text-align: center;
+	font-family: Raleway;
+}
+
+.productive p {
+	margin-bottom: 1.3em;
+	font-size: 14px;
+	font-family: 'open sans'
+}
+
+.productive a {
+	color: #65e2d9;
+	padding-bottom: 0.2em;
+	text-decoration: none;
+	border-bottom: 2px solid #65e2d9;
+}
+
+.productive i {
+	box-shadow: 0 1px 4px #65e2d9;
+	border-radius: 50%;
+	margin-left: 0.7em;
+}
 
 /* TESTIMONIAL SECTION */
+.testimony:nth-child(2) {
+	margin-top: 0;
+}
+
+.quote {
+	position: relative;
+	top: 7px;
+	left: 3.5em;
+	z-index: -1;
+}
+
+.testimony {
+	width: 84%;
+	margin: 2em auto;
+	background: #202a3c;
+	border-radius: 10px;
+	padding: 3em 1.5em 2em 1.5em;
+	font-family: 'open sans';
+}
+
+.testimony p {
+	line-height: 1.5em;
+	font-size: 14px;
+}
+
+.testifier {
+	display: flex;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.testifier img {
+	border-radius: 50%;
+	width: 50px;
+}
+
+.testifier_title {
+	margin-left: 1em;
+}
+
+.large {
+	display: none;
+}
+
+}
+
+
+
 
 /* FOOTER SECTION */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+.flex-wrapper{
+	display:flex;
+	flex-flow:row nowrap;
+	margin:0;
+	width:100%;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
 
-
-/*Color guide*/
-
-/*Primary
-
-- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%) / 	#1c2431
-
-- Dark Blue (main background): hsl(218, 28%, 13%) /	#181f2a
-
-- Dark Blue (footer background): hsl(216, 53%, 9%) / #0b1523
-- Dark Blue (testimonials background): hsl(219, 30%, 18%) / 	#202a3c
-
-### Accent
-
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%) / 	#65e2d9
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%) / #339ecc
-
-### Neutral
-
-- White: hsl(0, 0%, 100%) / #fff
+footer {
+	background: linear-gradient(#181f2a 20%, #0B1523 100%);
+	background: -webkit-linear-gradient(#181f2a 20%, #181f2a 100%));
+}
+.flex-wrapper.newsleta {
+	justify-content:center;
+	margin:30px 0;
+}
+.flex-wrapper.newsleta .col-8 {
+    background: #202A3C;
+	border-radius: 15px;
+	padding: 30px 50px;
+    border-radius: 15px;
+	text-align: center;
+}
+.newsleta input[type="text"] {
+    height: 45px;
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 40px;
+    border: none;
+}
+.newsleta button.button.btn {
+    background: #65E2D9;
+    height: 45px;
+    line-height: 45px;
+    min-width: 100px;
+    padding: 0 15px;
+	border-radius: 30px;
+	outline:none;
+}
