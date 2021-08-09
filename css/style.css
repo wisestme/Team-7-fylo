@@ -33,15 +33,9 @@ li{
 	padding-left: 35px;
 	opacity: 0.8;
 }
-
 header {
 	background-color: hsl(217, 28%, 15%);
-}
-.header-box::after{
-	content: ". ";
-	width: 100%;
-	height: 20px;
-	background-color: red;
+	height: 1160px;
 }
 .top-svg{
 	width:50%;
@@ -250,8 +244,8 @@ header {
 .col-12{width:100%;}
 
 footer {
-	background: linear-gradient(#181f2a 20%, #0B1523 20%);
-	background: -webkit-linear-gradient(#181f2a 20%, #0B1523 20%);
+	background: linear-gradient(#181f2a 20%, #0B1523 100%);
+	background: -webkit-linear-gradient(#181f2a 20%, #181f2a 100%));
 }
 .flex-wrapper.newsleta {
 	justify-content:center;
@@ -259,10 +253,11 @@ footer {
 	text-align:center;
 }
 .newsleta .col-8 {	
-	background: #202A3C;
-	border-radius:10px;
-    padding: 20px 6%;
-    box-shadow: 5px 5px 20px -10px black;
+    background: #202A3C;
+	border-radius: 15px;
+	padding: 30px 50px;
+    border-radius: 15px;
+	text-align: center;
 }
 .newsleta h2 {
     font-family: Raleway;
@@ -314,6 +309,7 @@ footer {
 	padding: 50px 0 70px;
 	flex-wrap: wrap;
 }
+
 .foot-logo img {
 	margin: 0px 0 30px;
 	display: inline-block;
