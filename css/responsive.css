@@ -130,8 +130,8 @@
         border-radius: 50px;
         border: hidden;
     }
+
 }
-    
     
 
 /* FEATURES SECTION */
@@ -299,3 +299,46 @@
 
 
 /* FOOTER SECTION */
+@media screen and (max-width: 950px) {
+    .newsleta .col-8 {
+        width: 80%;
+    }
+    .flex-wrapper.prefooter > div {
+        width: 50%;
+        margin: 20px 0;
+    }
+    .flex-wrapper.prefooter > div.foot-logo {
+        width: 100%;
+    }
+    .flex-wrapper.prefooter > div.col-1 {
+        width: 100%;
+    }
+    .flex-wrapper.prefooter > div.col-1 .social-nav {
+        justify-content: center;
+    }
+}
+@media(max-width: 767px){
+    .newsleta .col-8 {
+        width: 100%;
+    }
+    .newsleta .form-row {
+        flex-direction: column;
+    }
+    .newsleta p {
+        font-size: 14px;
+    }
+    .newsleta input[type="text"] {
+        width: 100%;
+        margin: 15px 0 25px;
+    }
+    .newsleta button.button.btn {
+        font-size: 16px;
+    }
+    .flex-wrapper.prefooter > div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .social-nav {
+        justify-content: center;
+    }
+}

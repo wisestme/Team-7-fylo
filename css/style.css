@@ -213,7 +213,6 @@ header {
 	display: none;
 }
 
-}
 
 
 
@@ -251,27 +250,104 @@ footer {
 .flex-wrapper.newsleta {
 	justify-content:center;
 	margin:30px 0;
+	text-align:center;
 }
-.flex-wrapper.newsleta .col-8 {
+.newsleta .col-8 {	
     background: #202A3C;
 	border-radius: 15px;
 	padding: 30px 50px;
     border-radius: 15px;
 	text-align: center;
 }
+.newsleta h2 {
+    font-family: Raleway;
+    letter-spacing: 1px;
+	margin: 20px 0 10px;
+	font-weight: 600 ;
+}
+.newsleta p {
+	width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #ffffffdb;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Open Sans;
+    line-height: 20px;
+}
 .newsleta input[type="text"] {
-    height: 45px;
+    height: 60px;
     width: 60%;
     padding: 0 20px;
-    border-radius: 40px;
+    border-radius: 30px;
+    outline: none;
     border: none;
+    color: #d0d0d0;
 }
 .newsleta button.button.btn {
-    background: #65E2D9;
-    height: 45px;
-    line-height: 45px;
-    min-width: 100px;
-    padding: 0 15px;
-	border-radius: 30px;
-	outline:none;
+    border: none;
+    background: linear-gradient(to right, #65E2D9 50%, #50afa8);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 12px;
+}
+.newsleta .form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.flex-wrapper.prefooter {
+	padding: 50px 0 70px;
+	flex-wrap: wrap;
+}
+
+.foot-logo img {
+	margin: 0px 0 30px;
+	display: inline-block;
+}
+.post-foot-logo {
+    padding-right: 25px;
+}
+.post-foot-logo p {
+	display: flex;
+    align-items: flex-start;
+}
+.post-foot-logo p img{
+    margin-right: 15px ;
+}
+ul.footer-nav li img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+ul.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+ul.social-nav {
+    display: flex;
+    justify-content: end;
+}
+ul.social-nav li a {
+    margin-right: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }
